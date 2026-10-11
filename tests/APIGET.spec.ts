@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('API get request for test master124', async ({ request }) => {
+test('API get request for test master1234567', async ({ request }) => {
 
   const response = await request.get('https://reqres.in/api/users?page=2');
 
